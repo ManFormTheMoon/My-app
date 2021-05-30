@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-field {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+
+.button-fiel {
+     width: 80px;
+     height: 30px;
+     margin-left: 10px;
+}
+
+.new-post-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-post-button {
+  width: 50px;
+}
